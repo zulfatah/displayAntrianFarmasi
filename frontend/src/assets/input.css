@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h5 {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-style: #0d47a1;
+}
+
+.cc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  color: #0d47a1;
+}
+
+.btnProses {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: #0d47a1;
+  background: none;
+  width: 100px;
+  border: none;
+  /* background-color: #52a0d8;
+  height: 35px;
+  border: none;
+  border-radius: 4px; */
+}
+
+.btnPending {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: #FF0000;
+  background: none;
+  width: 100px;
+  border: none;
+  /* background-color: #f9cf00;
+  height: 35px;
+  border-radius: 4px; */
+}
+
+.btnSelesai {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: #008f2b;
+  width: 100px;
+  background: none;
+  border: none;
+ 
+  /* background-color: #3eff5b;
+  height: 35px;
+  border-radius: 4px; */
+}
+
+.t-20 {
+  height: 10%;
+}
+
+.r-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff !important;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.jam {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #0d47a1 !important;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.bg {
+  background-color: #52a0d8;
+  height: 100vh !important;
+}
+
+.logo img {
+  width: 70px;
+  padding-top: 20px;
+  margin-right: 100px;
+}
+
+.judul {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  font-style: normal;
+
+  color: #0d47a1; 
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255); 
+  
+
+  padding-top: 20px;
+  margin-right: 200px;
+}
+
+.j-kategori {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  color: #f9cf00; 
+  padding-top: 5px;
+}
+
+.bg-kuning {
+  background-color: #f9cf00;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.bg-text {
+  background-color: #0d47a1;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  height: 20px !important;
+}
+
+table tr th {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #09df54 !important;
+  color: #ffffff !important;
+
+}
+
+table tr td {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000 !important;
+  font-size: small;
+}
+
+.table-container {
+  overflow-y: hidden;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  border: none !important;
+  text-align: center;
+  align-content: center;
+}
+
+.scrollable-content {
+  width: 100%; /* Menyesuaikan lebar dengan container */
+  position: absolute;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+.table-striped th {
+  white-space: nowrap;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Warna latar belakang agar teks tetap terbaca */
+  z-index: 1; /* Supaya tetap di atas elemen lainnya */
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.table-container {
+  position: relative;
+  height: 645px;
+  overflow: hidden;
+  /* background-color: #d3d1d1e2; */
+  background-color: #ffffff;
+
+  
+  
+}
+/* .table-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('logo.png');
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+} */
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container tbody {
+  display: block;
+}
+
+.scroll {
+  display: block;
+  animation: scrollUp 30s linear infinite;
+}
+
+.table-container tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  z-index: -999;
+}
+
+.table-container thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff; /* Adjust as needed */
+}
+
+/* style update sttau */
+
+.status-btn {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+.status-btn.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.status-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+svg {
+  margin-left: 10px;
+}
+
+svg:hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+/* .tblpasien {
+  height: 600px;
+  overflow-y: scroll;
+} */
+
+.tblpasien thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff; /* Adjust as needed */
+}
+
+
+/* style.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.01;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.01;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+.table-container {
+  overflow: hidden;
+}
+
+
