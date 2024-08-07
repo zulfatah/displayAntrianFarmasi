@@ -297,7 +297,7 @@ app.post('/login', (req, res) => {
         }
 
         if (isMatch) {
-          const token = jwt.sign({ id: user.id, username: user.username }, SECRET_KEY, { expiresIn: '24h' });
+          const token = jwt.sign({ id: user.id, username: user.username }, SECRET_KEY, { expiresIn: '1m' });
           return res.json({ token });
         } else {
           return res.status(400).json({ error: 'Password incorrect' });
